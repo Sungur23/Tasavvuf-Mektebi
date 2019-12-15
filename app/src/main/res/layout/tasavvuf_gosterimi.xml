@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bilgikatman"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ap00004"
+    android:gravity="center|center_vertical"
+    tools:context=".Tasavvuf.TasavvufGosterimi">
+
+
+    <RelativeLayout
+        android:id="@+id/gösterim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ScrollView
+            android:id="@+id/sc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/referans"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Referans"
+                    android:textColor="@color/black"
+                    android:visibility="invisible"
+                    android:textSize="2sp" />
+
+                <TextView
+                    android:textIsSelectable="true"
+                    android:id="@+id/yaz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

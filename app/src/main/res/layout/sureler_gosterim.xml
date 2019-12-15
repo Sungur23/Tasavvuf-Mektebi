@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Sureler.SurelerGosterim">
+
+
+    <LinearLayout
+        android:id="@+id/Suregöster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:id="@+id/Scroll"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <com.thebrownarrow.customfont.CustomFontTextView
+                        android:id="@+id/sureadı"
+                        android:text="Sure"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/bisque"
+                        android:textSize="30sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:custom_typeface="yt7.ttf"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:id="@+id/indirlayout"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dinlemek için indir :" />
+
+                        <Button
+                            android:id="@+id/sureindir"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/down" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/sureimaj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fil"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/background_view_rounded_single"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/suretext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="90dp"
+                            android:text="Okunuşu:\n\nElem tera keyfe fe'ale rabbuke biashâbilfîl.\n\n Elem yec'al keydehum fî tadlîl.\n\n Ve ersele aleyhim tayran ebâbîl.\n\n Termîhim bihicâratin min siccîl.\n\n Fece'alehum ke'asfin me'kûl.\n\n\n Anlamı:\n\nRahmân ve Rahîm olan Allah´ın adıyla\n\nRabbinin, fil sahiplerine ne yaptığını görmedin mi? ﴾1﴿\n\n Onların tuzaklarını boşa çıkarmadı mı? ﴾2﴿ \n\n Üzerlerine balçıktan pişirilmiş taşlar atan sürü sürü kuşlar gönderdi. Nihayet onları yenilmiş ekin yaprakları haline getirdi. ﴾3-5﴿"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/oynatlayoutu" />
+
+</RelativeLayout>

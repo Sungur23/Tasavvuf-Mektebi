@@ -1,0 +1,451 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Dervish</string>
+
+
+
+    <string name="country_prompt">Choose Categoty</string>
+
+    <string-array name="choose_category">
+        <item>Romantic</item>
+        <item>Sad</item>
+        <item>Love</item>
+        <item>Old</item>
+        <item>Dosti</item>
+        <item>Punjabi</item>
+        <item>Festival</item>
+        <item>Tv Serials</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="tab_name">
+        <item>Quran</item>
+        <item>Prayer Times</item>
+        <item>Daha Fazla</item>
+    </array>
+
+    <array name="surah_name">
+        <item>Al Fatihah</item>
+        <item>Al Baqarah</item>
+        <item>Al Imran</item>
+        <item>An Nisa</item>
+        <item>Al Maidah</item>
+        <item>Al An\'am</item>
+        <item>Al A\'raf</item>
+        <item>Al Anfal</item>
+        <item>At Tawbah</item>
+        <item>Yunus</item>
+        <item>Hud</item>
+        <item>Yusuf</item>
+        <item>Ar Ra\'d</item>
+        <item>Ibrahim</item>
+        <item>Al Hijr</item>
+        <item>An Nahl</item>
+        <item>Al Isra</item>
+        <item>Al Kahf</item>
+        <item>Maryam</item>
+        <item>Ta Ha</item>
+        <item>Al Anbiya\'</item>
+        <item>Al Hajj</item>
+        <item>Al Mu\'minun</item>
+        <item>An Nur</item>
+        <item>Al Furqan</item>
+        <item>Ash Shuara\'</item>
+        <item>An Naml</item>
+        <item>Al Qasas</item>
+        <item>Al Ankabut</item>
+        <item>Ar Rum</item>
+        <item>Luqman</item>
+        <item>As Sajdah</item>
+        <item>Al Ahzab</item>
+        <item>Saba</item>
+        <item>Fatir</item>
+        <item>Ya Sin</item>
+        <item>As Saffat</item>
+        <item>Sad</item>
+        <item>Az Zumar</item>
+        <item>Ghafir</item>
+        <item>Fussilat</item>
+        <item>Ash-Shura</item>
+        <item>Az Zukhruf</item>
+        <item>Ad Dukhan</item>
+        <item>Al Jathiyah</item>
+        <item>Al Ahqaf</item>
+        <item>Muhammad</item>
+        <item>Al Fath</item>
+        <item>Al Hujurat</item>
+        <item>Qaf</item>
+        <item>Adh Dhariyat</item>
+        <item>At Tur</item>
+        <item>An Najm</item>
+        <item>Al Qamar</item>
+        <item>Ar Rahman</item>
+        <item>Al Waqi\'ah</item>
+        <item>Al Hadid</item>
+        <item>Al Mujadilah</item>
+        <item>Al Hashr</item>
+        <item>Al Mumtahanah</item>
+        <item>As Saff</item>
+        <item>Al Jumu\'ah</item>
+        <item>Al Munafiqun</item>
+        <item>At Taghabun</item>
+        <item>At Talaq</item>
+        <item>At Tahrim</item>
+        <item>Al Mulk</item>
+        <item>Al Qalam</item>
+        <item>Al Haqqah</item>
+        <item>Al Ma\'arij</item>
+        <item>Nuh</item>
+        <item>Al Jinn</item>
+        <item>Al Muzzammil</item>
+        <item>Al Muddaththir</item>
+        <item>Al Qiyamah</item>
+        <item>Al Insan or Ad Dahar</item>
+        <item>Al Mursalat</item>
+        <item>An Naba\'</item>
+        <item>An Nazi\'at</item>
+        <item>\'Abasa</item>
+        <item>At-Takwir</item>
+        <item>Al Infitar</item>
+        <item>Al Mutaffifin</item>
+        <item>Al Inshiqaq</item>
+        <item>Al Buruj</item>
+        <item>At Tariq</item>
+        <item>Al A\'la</item>
+        <item>Al Ghashiyah</item>
+        <item>Al Fajr</item>
+        <item>Al Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al Layl</item>
+        <item>Ad Duha</item>
+        <item>Ash Sharh</item>
+        <item>At Tin</item>
+        <item>Al \'Alaq</item>
+        <item>Al Qadr</item>
+        <item>Al Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al \'Adiyat</item>
+        <item>Al Qari\'ah</item>
+        <item>At Takathur</item>
+        <item>Al \'Asr</item>
+        <item>Al Humazah</item>
+        <item>Al Fil</item>
+        <item>Quraysh</item>
+        <item>Al Ma\'un</item>
+        <item>Al Kawthar</item>
+        <item>Al Kafirun</item>
+        <item>An Nasr</item>
+        <item>Al Masad</item>
+        <item>Al Ikhlas</item>
+        <item>Al Falaq</item>
+        <item>An Nas</item>
+
+    </array>
+    <string name="quran">Quran</string>
+    <string name="prayer">Prayer</string>
+
+    //More items
+    <string name="more">More</string>
+    <string name="zikirmatik">Praymatic</string>
+    <string name="kibleBul">Find Qibla</string>
+    <string name="cumaMesajlari">Friday Messages</string>
+
+    //Dini Bilgiler
+    <string name="diniBilgiler">Religious information</string>
+    <string name="IBADET_NEDIR">What is Worship</string>
+    <string name="IMANIN_SARTLARI">Conditions of admission</string>
+    <string name="ISLAMIN_SARTLARI">Terms of Islam</string>
+    <string name="OTUZIKI_FARZ">32 assumptions</string>
+    <string name="ELLIDORT_FARZ">54 assumptions</string>
+    <string name="FARZ_NEDIR">What is supposed</string>
+    <string name="SUNNET_NEDIR">What is Circumcision</string>
+    <string name="VACIP_NEDIR">What is Vacip</string>
+    <string name="KELIMEI_SAHADET">Islamic confession of faith</string>
+    <string name="EZAN">Call to prayer</string>
+    <string name="KELIMEI_TEVHID">Word-i Tawhid</string>
+    <string name="NAMAZ_REKATLARI">Prayer Credits</string>
+    <string name="ABDEST_NASIL_ALINIR">How to get the ablution</string>
+    <string name="ERKEKLER_NAMAZ_NASIL">Men\'s How to Make Prayers</string>
+    <string name="KADINLAR_NAMAZ_NASIL">Ladies How to Make Prayer</string>
+    <string name="ISLAM_NEDIR">Islam</string>
+    <string name="NAMAZ">Prayer</string>
+    <string name="ORUC">Fast</string>
+    <string name="ZEKAT">Alms</string>
+    <string name="ADAK">Vow</string>
+
+    //Cuma mesaji more settings
+    <string name="ESMAUL_HUSNA">Esma-ul Husna</string>
+    <string name="CUMA_BACK_IMAGE">Background picture</string>
+    <string name="CUMA_DUZ_TEMA">Flat theme</string>
+    <string name="CUMA_HAZIR_MESSAGE">Default message</string>
+    <string name="CUMA_MSG_COLOR">Message color</string>
+    <string name="CUMA_MSG_SIZE">Message size</string>
+    <string name="CUMA_MSG_KENDIN_YAZ">Write yourself</string>
+
+    <string name="HOLD_PARALLEL">Please keep the phone parallel to the ground</string>
+    <string name="ayah">Ayah</string>
+    <string name="options">Options</string>
+    <string name="viewOptions">View Options</string>
+    <string name="textOptions">Text Options</string>
+    <string name="language">Language</string>
+    <string name="translationLanguage">Translation Language</string>
+    <string name="showTransliteration">Show Transliteration</string>
+    <string name="showTranslation">Show Translation</string>
+    <string name="fontArabic">Arabic Font</string>
+    <string name="fontSizeArabic">Arabic Font Size</string>
+    <string name="fontSizeTransliteration">Transliteration Font Size</string>
+
+    <string name="fontSizeTranslation">Translation Font Size</string>
+    <string name="SAVE">Save</string>
+    <string name="SAVE_ON">Save On</string>
+    <string name="MY_DHIKR">My Dhikrs</string>
+    <string name="NIGHT_MODE_MESSAGE">Background color cannot be changed in night mode</string>
+    <string name="UPPERYES">YES</string>
+    <string name="UPPERNO">NO</string>
+    <string name="WARNING_RESET_COUNTER">Are you sure you want to reset the counter?</string>
+    <string name="COUNTER_NUM_IS_ZERO">Counter count 0</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="SAVE_TO_LIST">Save To List</string>
+    <string name="PLEASE_GIVE_A_NAME">Please give a name</string>
+    <string name="THERE_IS_SAME_ZIKIR">Have the same dhikr</string>
+    <string name="CONTINUE">Continue</string>
+    <string name="DELETE">Delete</string>
+    <string name="DHIKR_WILL_BE_CONTINUED">zikrine devam edilecek</string>
+    <string name="WAS_RECORDED">Was recorded</string>
+    <string name="GOOD_FRIDAY_MESSAGE">HAVE A GOOD FRIDAY</string>
+    <string name="FINISH">Finish</string>
+    <string name="WHATSAPP_NOT_INSTALLED">Whatsapp have not been installed</string>
+    <string name="UNEXPECTED_ERROR">Unexpected error occurred</string>
+    <string name="SHARE">Share</string>
+
+    <!-- Location Settings constants-->
+    <string name="WRITE_SOMETHING">Write something...</string>
+    <string name="gpsSettings">GPS Settings</string>
+    <string name="gpsSettingMessage">GPS is not enabled. Click on setting to enable and get location, please start app again after turning on GPS.</string>
+    <string name="settings">Settings</string>
+    <string name="msg_permission_not_granted_yet">Location access not available yet</string>
+    <string name="qible_location_access_required">Location access is required to find the Qibla</string>
+    <string name="location_not_ready">Location not ready, please try again.</string>
+    <string name="qibla_direction">Kaaba Direction:</string>
+    <string name="degree_from_north">degrees from the north.</string>
+
+    <string name="pls_enable_location">Please turn on Location and try again.</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply">Apply</string>
+    <string name="letterA">A</string>
+    <string name="arabicWord">بِسْــمِ اﷲِارَّحْمَنِ ارَّحِيم</string>
+    <string name="transliterationWord">Bismillah-ir-Rahman-ir-Rahim</string>
+
+    <string name="translationWord">In the name of God, most Gracious, most Compassionate</string>
+    <string name="downloadLanguagePAck">Download Language packet?</string>
+    <string name="loading">Loading</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="county">County</string>
+
+    <string name="change">Change</string>
+    <string name="date">Date</string>
+    <string name="imsak">Fajr</string>
+    <string name="gunes">Sunrise</string>
+    <string name="ogle">Dhuhr</string>
+    <string name="ikindi">Asr</string>
+    <string name="aksam">Maghrib</string>
+    <string name="yatsi">Isha</string>
+    <string name="today">Today</string>
+    <string name="zeroTime">00:00</string>
+    <string name="setLocation">Do yo want to set your location as @ilce@?</string>
+    <string name="imsakiye">Full List</string>
+    <string name="selectLocation">Choose Location</string>
+    <string name="alarm">Alarm</string>
+    <string name="timeNotifications">Prayer Time Notifications</string>
+    <string name="imsakNotifSettings">Fajr Notifications</string>
+    <string name="gunesNotifSettings">Sunrise Notifications</string>
+    <string name="ogleNotifSettings">Dhuhr Notifications</string>
+    <string name="ikindiNotifSettings">Asr Notifications</string>
+    <string name="aksamNotifSettings">Maghrib Notifications</string>
+    <string name="yatsiNotifSettings">Isha Notifications</string>
+    <string name="before">Before:</string>
+    <string name="exactime">At time:</string>
+    <string name="seperator">---</string>
+    <string name="enabled">Enabled</string>
+
+    <string name="disabled">Disabled</string>
+    <string name="notifSituation">Situation</string>
+    <string name="notifTime">Notification Time</string>
+    <string name="notifMelody">Notification Melody</string>
+    <string name="adjustNotificationDetail">Adjust Notification Detail</string>
+    <string name="headerTextBefore">Before Notification</string>
+    <string name="headerTextExact">Exact Notification</string>
+    <string name="minutes">minutes</string>
+    <string name="time">time</string>
+    <string name="minutesRemain">minutes remain</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="display">Display</string>
+    <string name="remainder">Remainder</string>
+    <string name="notifications">Notifications:</string>
+    <string name="no_accelometer_sensor">Device has no acceleration sensor</string>
+
+
+    <string name="no_magnetic_field_sensor">Device does not have magnetic field sensor</string>
+
+    <string-array name="prayerTimes">
+        <item>Fajr</item>
+        <item>Sunrise</item>
+        <item>Dhuhr</item>
+        <item>Asr</item>
+        <item>Maghrib</item>
+        <item>Isha</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="sounds">
+        <item>Default</item>
+        <item>Melody 1</item>
+        <item>Bird Chirping</item>
+        <item>Beautiful Islam 1</item>
+        <item>Beautiful Islam 2</item>
+        <item>Al Habib</item>
+        <item>Allahu Allahu</item>
+        <item>Ayat Al Kursi</item>
+        <item>Bismillah 1</item>
+        <item>Bismillah 2</item>
+        <item>Bismillahillezi</item>
+        <item>Adhan 1</item>
+        <item>Adhan 2</item>
+        <item>Adhan 3</item>
+        <item>Fajr Alarm</item>
+        <item>Haj Labbaik</item>
+        <item>99 Names</item>
+        <item>Quran</item>
+    </string-array>
+
+    <string-array name="arabic_font">
+        <item>Amiri</item>
+        <item>Me Quran</item>
+        <item>Noorehira</item>
+        <item>PDMS Islamic</item>
+        <item>PDMS Quran</item>
+        <item>Scheherazade</item>
+        <item>Uthmani</item>
+        <item>Uthmani Ver12</item>
+    </string-array>
+
+    <string-array name="arabic_font_code">
+        <item>amiri.ttf</item>
+        <item>me_quran.ttf</item>
+        <item>noorehira.ttf</item>
+        <item>PDMS_IslamicFont.ttf</item>
+        <item>PDMS_Saleem_QuranFont.ttf</item>
+        <item>Scheherazade-Regular.ttf</item>
+        <item>Uthmani.otf</item>
+        <item>uthmanic_hafs_ver12.otf</item>
+    </string-array>
+
+    <string-array name="translation_list">
+        <item>quran_original.json</item>
+        <item>quran_simple_clean.json</item>
+        <item>quran_tajweed.json</item>
+        <item>quran_translation_list.json</item>
+        <item>quran_translation_tr_diyanet.json</item>
+        <item>quran_transliteration_en.json</item>
+        <item>quran_transliteration_tr.json</item>
+        <item>quran_uthmani.json</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="Kazanedir">"Praying salah on time is called \"adaa\", praying when its time is over is called \"qadaa\". Salah which couldn't be prayed during its time is called \"faaitah\". Its plural is \"fawaait\".  \n"
+        "\n"
+        "It's fard to pray qada of daily 5 time salahs which weren't prayed on time, and the qada of al-vitr is wajib. Number of sunnahs to do qada is few. Such, if the sunnah and the fard of salah al-fajr weren't prayed, then both the qada of sunnah and fard  would be prayed during the time from 50-55 after sunrise till a little time before salah ad-dhur time. They couldn't be prayed before duha time or after istiwa. According to  Imam Muhammad even if this salah(suunah of salah al-fajr) wasn't prayed on time where fard was prayed, qada of sunnah still would be done between duha and istiwa time. \n"
+        "\n"
+        "It's of the major sins not praying a salah on time without any excuses.  Allaahu Taâlâ says: \"But when you become secure, re-establish [regular] prayer. Indeed, prayer has been decreed upon the believers a decree of specified times.\" (an-Nisa, 4/103) The sin of  not praying salah on time without an excuse wouldn't be erased by qada, repentance would be necessary as well. \n"
+        "\n"
+        "There are some valid excuses for delaying salah. For example: Fear of enemy, or a n obstetrician fearing the death of the baby or the mother during birth, could be among these excuses. \n"
+        "\n"
+        "A person who delays salah knowingly due to his laziness would be a sinner and it's wajib upon him to do qada of this salah. \n"
+        "\n"
+        "How to do qada of salah?\n"
+        "\n"
+        "Qada of a salah is same as the adaa of it. For example, a person who misses a 4 rakah salah when travelling, he would do qada of it as 2 rakahs either out of town or after he turns back home. And  when he misses a salah in his town, he should do qada of it fully(4 rakahs) either out of town or at home. \n"
+        "\n"
+        "Does it requie an order when doing qada?\n"
+        "If the person is owner of tarteeb, he should do it in an order between qada and waqt. If he's not owner of tarteeb, he could pray waqt, before qada.\n"
+        "\n"
+        "A person is  called \"owner of tarteeb\" if he doesn't owe qada of salah for more than 6 waqts. When he has more than 6 qada to pray including vitr, he wouldn't be owner of tarteeb anymore.  \n"
+        "\n"
+        "If a person doesn't know the number of salah he didn't pray on time, he acts in according to the dominant opinion. If he cannot make a decision, he should pray till he believes he is free from qada. \n"
+        "\n"
+        "If congregational prayer(salat al-jamaah) happens to start when a person is praying qada of a salah he missed, he is not allowed to attend the congregational prayer until he completes the qada.\n"
+        "\n"
+        "It's more proper to do qada at home. Because making the sin seen by others is taken as dare against Janab-i Haqq and also it could set a bad example for others.\n"
+        "\n"
+        "Qada could be done anytime except the 3 waqt of karaat. These are: The time of sunrise, sunset and zawal(when the sun is at the highest point).\n"
+        "\n"
+        "It's more important to be busy with qada than nawafil. But sunnahs of daily 5 prayers are exceptional either muaqqad or ghair muaqqad. I mean it's not proper leaving sunnah and doing qada instead of sunnah. Rather doing the niyyah for sunnah is more proper.  It's like this even for the prayers like duha and tahajood which there are hadiths regarding them. It's better to do the niyyah for them this way as well.  Because these sunnahs complete the fards.  Besides, it's not possible to recompense for them.  But it's possible to recompense qada as there's not a particular time for it.\n"
+        "\n"
+        "It's not proper for a person who sinned by leaving fards, sacrificing sunnahs to get clear from that sin. How could it be proper leaving some fo the sunnahs and nawafil which would cause the intercession of Rasulullaah alaihissalatu wassalaam, whereas he is supposed to seek the Almighty Allaah's forgiveness by increasing his ibadah? Wouldn't it be double the fault both leaving the fards and the sunnahs? The fatwa based on opinion is this. This opinion belongs to Umar Nasuhi Bilmen.\n"
+        "\n"
+        "Note of Editor:\n"
+        "\n"
+        "Qada of salat al-fajr: 2 rakaah fard would be prayed. \n"
+        "\n"
+        "Qada of dhuhr: 4 rakaah fard would be prayed .\n"
+        "\n"
+        "Qada of asr: 4 rakaah fard would be prayed .\n"
+        "\n"
+        "Qada of maghreeb: 3 rakaah fard would be prayed .\n"
+        "\n"
+        "Qada of ishaa: 4 rakaah fard would be prayed .\n"
+        "\n"
+        "Qada of vitr: 3 rakaah same as vitr would be prayed.\n"
+        "\n"
+        "Source: Prof. Dr. Hamdi DÖNDÜREN, Ilmuhaal of Islam With Proofs p.,388-393."</string>
+
+    <string name="SalavatNot">You are supposed to grant 5 salat-e nabee so that you could go on</string>
+    <string name="tasavvufzikir0">Chapter Of Dhikr</string>
+    <string name="tasavvufzikir1">Benefits Of Doing Dhikr</string>
+    <string name="tasavvufzikir2">The Role Of Dhikr ln Tarbiyya-1</string>
+    <string name="tasavvufzikir3">The Role Of Dhikr ln Tarbiyya-2</string>
+    <string name="tasavvufbilgi0"> Path, Traveller,Guide: About Tasawoof</string>
+    <string name="tasavvufbilgi1"> What is Sufizm?</string>
+    <string name="tasavvufbilgi2"> Growing up of the Saleeq(Soofy)</string>
+    <string name="tasavvufbilgi3"> Necessities of Being a Mureed</string>
+    <string name="tasavvufbilgi4"> How to Heal Spiritually?</string>
+    <string name="tasavvufbilgi5"> The Reason Why We Should Follow A Qameel Mursheed </string>
+    <string name="tasavvufbilgi6"> The Signs of a Qameel Mursheed</string>
+    <string name="tasavvufbilgi7"> What is Tasawoof?</string>
+    <string name="tasavvufbilgi8"> Elements of this path towards Allah Subhana</string>
+    <string name="tasavvufbilgi9"> Proofs of Tasawoof From Qur\'an and Sunnah</string>
+    <string name="tasavvufbilgi10"> Being With the Sadiqoon</string>
+    <string name="tasavvufbilgi11"> Opinions of Mujtaheed Scholars Regarding Tasawoof</string>
+    <string name="tasavvufbilgi12"> The Words and Terms Used in Tasawoof</string>
+    <string name="tasavvufbilgi13"> Ahl At-Tasawoof</string>
+    <string name="tasavvufbilgi14"> The Origin and Evolution of the llm of Tasawoof</string>
+    <string name="tasavvufbilgi15"> lkhlaas and Submission</string>
+    <string name="tasavvufbilgi16"> Explanation of the lmportance</string>
+    <string name="tasavvufbilgi17"> Tasawoof and al-ihsaan</string>
+
+
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="YoklukKapısı">Gate of Absence</string>
+    <string name="YunusEmre">lf you say come on my brother let`s find al-Haqq /n It won`t happen without reaching a qameel mursheed</string>
+    <string name="DevamEt">Next</string>
+    <string name="DevamEt2">⭐⭐⭐</string>
+    <string name="Referans">En</string>
+    <string name="Kalan1">Rest 1</string>
+    <string name="Kalan2">Rest 2</string>
+    <string name="Kalan3">Rest 3</string>
+    <string name="Kalan4">Rest 4</string>
+    <string name="Kalan5">Rest 5</string>
+    <string name="Kumbara">Salat Box</string>
+    <string name="HediyeSayısı">Number of Total Gift</string>
+    <string name="Çıkış">Quit</string>
+    <string name="Eminmisin">Are u Sure?</string>
+    <string name="Evet">Yes</string>
+    <string name="Hayır">No</string>
+    <string name="Birhadis">A Hadith</string>
+    <string name="Birisim">An Ism-u Shareef </string>
+    <string name="BirKıssa">An Anektod</string>
+
+    <string name="Tarikatlar">Tariqahs</string>
+    <string name="Tasavvuf">Sufi Way</string>
+    <string name="Kütüphane">Library</string>
+    <string name="Hatmeihacegan"> Khatm-i Hajagan</string>
+    <string name="Kazanamazlarım">Missed Prayer Tracker</string>
+    <string name="Ezanvakti">Salah Time</string>
+    <string name="Zikirmatik">Dhikrmatic</string>
+    <string name="Binhadiscarkı">Wheel of 1000 Hadiths</string>
+    <string name="Kafileler">Convoys</string>
+    <string name="EvliyalarAnsiklopedisi">Life of Awliya</string>
+    <string name="Sadatıkiram">Sadat-e Kiraam</string>
+    <string name="NamazSureleri">Surahs of Salah</string>
+    <string name="Kuranıkerim">Quran-ı Kerim</string>
+    <string name="Esmaülhüsna">Esma-ül Hüsna</string>
+    <string name="Paylaş">Share</string>
+    <string name="İletişim">Contact Us</string>
+
+    <string name="Sohbetler">Sohbetler</string>
+    <string name="Cevşen">Jawshan Kabeer</string>
+
+    <string name="TaşSayısıHesaplama">Stone Number Calculator</string>
+    <string name="Yabaki">Yaa Baqi Anta al-Baqi</string>
+    <string name="Lahavle">Laa hawla wa laa quwata illa billaahil aliyyil azeem</string>
+
+    <string name="KişiSayısı">How Many Person will join?</string>
+    <string name="Hesapla">Calculate</string>
+    <string name="KüçükHatme">Short Khatma</string>
+    <string name="BüyükHatme">Long Khatma</string>
+    <string name="HatmeTürü">Select The Kind of Khatma</string>
+    <string name="KişibaşıokunacakZikirler">Dhikr to be recited per person</string>
+    <string name="SalavatıŞerife">Salawat-i Shareefah</string>
+    <string name="İnşirahSuresi">İnşirah Surah</string>
+    <string name="İhlasSuresi">İhlas Surah</string>
+    <string name="Veya">Or</string>
+    <string name="BirSayıGiriniz">Please push a number</string>
+    <string name="TamBölünmeme">lf any stones left after the stones are distributed equally to each person /n
+    the remaining stones would be distributed beginning from the person sitting on the right.</string>
+
+
+    <string name="Ayarlar">Settings</string>
+    <string name="hadisçarkı">Rotate</string>
+    <string name="hadisçarkı2">…Press to Rotate Button…</string>
+
+
+</resources>

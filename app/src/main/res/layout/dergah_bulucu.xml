@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ap00005"
+    tools:context=".DergahBul.DergahBulucu">
+
+    <LinearLayout
+        android:background="@color/black_semi_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:background="@color/black_25_transparent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+
+                    android:drawableLeft="@drawable/ara"
+                    android:id="@+id/editText"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/trasparentbutton"
+                    android:gravity="center"
+                    android:hint="Nerede dergâh arıyorsun?"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#f1f1f1"
+                    android:textCursorDrawable="@color/accent"
+                    app:backgroundTint="@color/accent" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:background="@drawable/sosyall4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/button3"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/trasparentbutton"
+                    android:text="Email ile Sorgula"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/sosyall2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt10"
+                    android:text="Whatsap'tan Sor"
+                    android:textAllCaps="false"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:text="E-mail üzerinden sorgulama yapınız"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/black_25_transparent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:text="Önemli Not "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:text="Nakşibendi Halidiyye Kolu BUHARA ERKEK DERGÂHLARI sorgulanabilir. Henüz farklı tarikat ve kollardaki dergâh sorgulamaları yapılmamaktadır. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="Bayan kardeşlerimiz lütfen mesaj atmasın.Sadece erkekler içindir."
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite4"
+                android:textSize="22sp"
+                android:textStyle="bold|italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

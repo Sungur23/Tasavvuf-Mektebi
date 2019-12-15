@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SanalKütüphane.Admin_Yazarlar"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/refKitap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+
+
+    <EditText
+        android:id="@+id/Yazarphotourl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Yazar photo url" />
+
+    <EditText
+        android:visibility="visible"
+        android:id="@+id/yazarınadı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yazarın Adı" />
+    <EditText
+        android:visibility="visible"
+        android:id="@+id/aktarılacakQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aktarılacak Quaery" />
+
+
+    <Button
+        android:id="@+id/yayınla"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000"
+        android:text="Gönder"
+        android:textColor="#fff" />
+
+</LinearLayout>

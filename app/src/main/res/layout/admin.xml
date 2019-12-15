@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ap00006"
+    android:gravity="center"
+    tools:context=".Admin.Admin">
+    <LinearLayout
+        android:id="@+id/pas"
+        android:background="@color/black_semi_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true">
+
+
+            <LinearLayout
+                android:id="@+id/login_holder_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/iconix" />
+
+
+
+
+
+
+                <EditText
+                    android:id="@+id/şifre"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/trasparentbutton"
+                    android:ellipsize="start"
+                    android:gravity="center"
+                    android:hint=" Yetkili Şifresi giriniz"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#f1f1f1"
+                    tools:ignore="HardcodedText"
+                    android:textCursorDrawable="@color/red"
+                    app:backgroundTint="@color/cold" />
+
+                <Button
+                    android:id="@+id/giriş"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/trasparentbutton"
+                    android:text="Admin Giriş"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="1dp"
+                    android:background="@color/white"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="Bu alan adminler içindir \n Adminlik başvurusu için mail atınız"
+                    android:textColor="#99ffffff"/>
+
+                <TextView
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="Kayıt ol"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resimurl"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/imageurl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content"
+                android:text="Yazıtext"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/yazıfire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content"
+                android:text="GörünürlükChat"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/görünürlükfire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/yayınla"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/butonyeni"
+                android:textColor="@color/cold"
+                android:text="Yayınla" />
+
+            <Button
+                android:id="@+id/wallpapers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

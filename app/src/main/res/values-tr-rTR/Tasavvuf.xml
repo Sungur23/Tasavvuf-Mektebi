@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="YoklukKapısı">Yokluk Kapısı</string>
+
+    <string name="YunusEmre">Gel ey kardeş hakkı bulayım dersen /n Bir kamil mürşide varmayınca olmaz</string>
+    <string name="DevamEt">Devam Et</string>
+    <string name="DevamEt2">⭐⭐⭐</string>
+
+    <string name="Referans">Tr</string>
+    <string name="Kalan1">Kalan 1</string>
+    <string name="Kalan2">Kalan 2</string>
+    <string name="Kalan3">Kalan 3</string>
+    <string name="Kalan4">Kalan 4</string>
+    <string name="Kalan5">Kalan 5</string>
+    <string name="Kumbara">Salavat-ı Şerif Kumbarası</string>
+    <string name="HediyeSayısı">Toplam Hediye Sayısı</string>
+    <string name="Çıkış">Çıkış</string>
+    <string name="Eminmisin">Emin misin?</string>
+    <string name="Evet">Evet</string>
+    <string name="Hayır">Hayır</string>
+    <string name="Birhadis">Bir Hadis-i Şerif</string>
+    <string name="Birisim">Bir İsm-i Şerif </string>
+    <string name="BirKıssa">Bir Kıssa</string>
+    <string name="Tarikatlar">Tarikatlar</string>
+    <string name="Tasavvuf">Tasavvuf</string>
+
+    <string name="Kütüphane">Kütüphane</string>
+    <string name="Hatmeihacegan">Hatme-i Hacegan</string>
+    <string name="Kazanamazlarım">Kaza Namazlarım</string>
+    <string name="Ezanvakti">Ezan Vakti</string>
+    <string name="Zikirmatik">Zikirmatik</string>
+    <string name="Binhadiscarkı">Bin Hadis Çarkı</string>
+    <string name="Kafileler">Kafileler</string>
+    <string name="EvliyalarAnsiklopedisi">Evliyalar Ansiklopedisi</string>
+    <string name="Sadatıkiram">Silsile-i Şerifler</string>
+    <string name="NamazSureleri">Namaz Sureleri</string>
+    <string name="Kuranıkerim">Kuran-ı Kerim</string>
+    <string name="Paylaş">Paylaş</string>
+    <string name="İletişim">İletişim</string>
+    <string name="Esmaülhüsna">Esma-ül Hüsna</string>
+    <string name="Sohbetler">Sohbetler</string>
+    <string name="Cevşen">Cevşen-i Kebir</string>
+    <string name="Ayarlar">Ayarlar</string>
+    <string name="TaşSayısıHesaplama">Taş Sayısı Hesaplama</string>
+    <string name="Yabaki">Ya Baki Entel Baki</string>
+
+
+    <string name="Lahavle">Lâ havle ve lâ kuvvete illâ billâhil-alliyyil-azîm</string>
+    <string name="KişiSayısı">Kişi Sayısını Giriniz</string>
+    <string name="Hesapla">Hesapla</string>
+
+    <string name="KüçükHatme">Küçük Hatme</string>
+    <string name="BüyükHatme">Büyük Hatme</string>
+    <string name="HatmeTürü">Hatme Türünü Seçiniz</string>
+    <string name="KişibaşıokunacakZikirler">Kişi Başı Okunacak Zikirler</string>
+    <string name="SalavatıŞerife">Salavat-ı Şerife</string>
+    <string name="İnşirahSuresi">İnşirah Suresi</string>
+    <string name="İhlasSuresi">İhlas Suresi</string>
+    <string name="Veya">Veya</string>
+    <string name="BirSayıGiriniz">Lütfen, bir sayı giriniz…</string>
+    <string name="TamBölünmeme">Tam Bölünmediğinde Kalan Sayı Kadar Taş Sağ Baştan Tekrar Dağıtılır</string>
+    <string name="hadisçarkı">Döndür</string>
+    <string name="hadisçarkı2">…Döndür Butonuna Basınız…</string>
+
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:paddingRight="15dp"
+        android:paddingTop="50dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/neredenEdittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="1-534 arasında bir sayı giriniz"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColorHint="@color/bisque"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button android:id="@+id/saveBtn"
+            android:textAllCaps="false"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="Git"
+            android:clickable="true"
+            android:background="@drawable/btnyeni"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

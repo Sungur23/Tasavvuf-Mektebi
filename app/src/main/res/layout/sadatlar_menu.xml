@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fafafa"
+    android:orientation="vertical"
+    tools:context=".Sadatikiram.SadatlarMenu">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <com.github.florent37.arclayout.ArcLayout
+            android:id="@+id/diagonalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:elevation="10dip"
+            app:arc_cropDirection="cropOutside"
+            app:arc_position="bottom"
+            app:arc_height="50dp"
+            >
+
+            <com.flaviofaria.kenburnsview.KenBurnsView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dergah"
+                />
+
+
+        </com.github.florent37.arclayout.ArcLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/diagonalLayout"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/vav3"
+                />
+            <Button
+                android:id="@+id/buhara"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnyeni"
+                android:text="Buhara Silsilesi"
+                android:textColor="@color/Beyaz"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                />
+
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/menzil"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnyeni"
+                android:text="Menzil Silsilesi"
+                android:textColor="@color/Beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+
+                />
+
+
+            <Button
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/konya"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnyeni"
+                android:text="Konya Silsilesi"
+                android:textColor="@color/Beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+
+                />
+
+            <Button
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/haznevi"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnyeni"
+                android:text="Haznevi Silsilesi"
+                android:textColor="@color/Beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+
+                />
+
+            <Button
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/yahyalı"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnyeni"
+                android:text="Ramazan Dinç Silsilesi"
+                android:textColor="@color/Beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+
+                />
+
+
+            <Button
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/mahmut"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnyeni"
+                android:text="Mahmut Efendi Silsilesi"
+                android:textColor="@color/Beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+
+                />
+            <Button
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/süleyman"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnyeni"
+                android:text="Süleyman H. Tunahan Silsilesi"
+                android:textColor="@color/Beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+
+                />
+
+
+
+            <Button
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/kıbrisi"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnyeni"
+                android:text="Nazım Kıbrisi Silsilesi"
+                android:textColor="@color/Beyaz"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:text="Eklenmesini istediğiniz silsile varsa mail atınız"
+                android:textColor="#979696"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/vav2"
+                />
+            <TextView
+                android:text="@string/Sadatnedemek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="18dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#979696"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

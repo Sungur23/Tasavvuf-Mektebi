@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ap00006"
+    tools:context=".HadisCarki.HadisCarki">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ac"
+        android:visibility="visible"
+        app:backgroundTint="@color/colorWhite3"
+        app:rippleColor="@color/blue"
+        app:maxImageSize="55dp"
+        app:useCompatPadding="true" />
+
+    <TextView
+        android:id="@+id/seskontrol2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|left"
+        android:text="Acıldı"
+        android:textColor="@color/azure"
+        android:visibility="visible"
+
+        app:layout_anchor="@+id/fab222"
+        app:layout_anchorGravity="bottom|center" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab22"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/basmaefekt11"
+        android:visibility="visible"
+        app:maxImageSize="55dp"
+
+        app:backgroundTint="@color/colorWhite3"
+        app:rippleColor="@color/blue"
+        app:useCompatPadding="true" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/asagok" />
+
+            <ImageView
+                android:id="@+id/dönecek"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/cark" />
+
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/döndüren"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnyeni"
+                android:text="@string/hadisçarkı" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/mha"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    app:srcCompat="@drawable/mha" />
+
+                <LinearLayout
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/buttonshape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textIsSelectable="true"
+                        android:id="@+id/hadisgöster"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="75dp"
+                        android:text="@string/hadisçarkı2"
+                        android:textAlignment="center"
+                        android:textColor="@color/Beyaz"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

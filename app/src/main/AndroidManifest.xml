@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="soft.bigeran.dervis">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/GenelTema"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        tools:replace="android:label">
+        <activity android:name=".AnaEkran.MainActivity"></activity>
+        <activity android:name=".SanalKütüphane.Admin_Yazarlar" />
+        <activity android:name=".Delalül.Delalul_hayrat" />
+        <activity android:name=".Kafileler.KafileGoster" />
+        <activity android:name=".Kafileler.Kafile_Liste" />
+        <activity android:name=".Kafileler.Kafile_Yayinla" />
+        <activity android:name=".Kafileler.KafileMenu" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/GenelTema" />
+        <activity
+            android:name=".Splash.Giris"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".YeniSohbetler.YeniSohbetMenu"
+            android:theme="@style/GenelTema">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash.Splash" />
+        <activity android:name=".GecisEkrani.SalavatEkrani" />
+        <activity android:name=".GecisEkrani.HadisEkrani" />
+        <activity android:name=".GecisEkrani.EsmaEkrani" />
+        <activity android:name=".Ayarlar.Ayarlar" />
+        <activity android:name=".Hakkımızda.Hakkımızda" />
+        <activity android:name=".DergahBul.DergahBulucu" />
+        <activity android:name=".Sohbetler.SohbetMenü.SohbetMenu" />
+        <activity android:name=".Sohbetler.RisaleSohbet" />
+        <activity android:name=".Sohbetler.Sohbetler" />
+        <activity android:name=".Youtube.Youtube" />
+        <activity android:name=".Youtube.DetailsActivity" />
+        <activity android:name=".Chat.ChatActivity" />
+        <activity android:name=".Chat.HomeActivity" />
+        <activity android:name=".Chat.MainActivity" />
+        <activity android:name=".Chat.RegisterActivity" />
+        <activity android:name=".Admin.Admin" />
+        <activity android:name=".Deneme.DosyaIndirici" />
+        <activity android:name=".Deneme.DownedBook" />
+        <activity android:name=".Deneme.Download" />
+        <activity android:name=".Deneme.Folder" />
+        <activity android:name=".Deneme.Kitaplar" />
+        <activity android:name=".Deneme.KitaplarListe" />
+        <activity android:name=".Deneme.KitapTur" />
+        <activity android:name=".Duyuru.Duyurular" />
+        <activity android:name=".Duyuru.DuyuruMenu" />
+        <activity android:name=".EsmaülHüsna.EsmaulHusna" />
+        <activity android:name=".EvliyalarAnksiklopedisi.MainActivitySearchView" />
+        <activity android:name=".EvliyalarAnksiklopedisi.EvliyalarGosterim" />
+        <activity android:name=".HadisCarki.HadisCarki" />
+        <activity android:name=".Tarikatlar.Tarikatlar" />
+        <activity android:name=".Tarikatlar.TarikatGosterimi" />
+        <activity android:name=".Zikirmatik.Zikirsec" />
+        <activity android:name=".Zikirmatik.Zikirmatik" />
+        <activity android:name=".Tasavvuf.Tasavvuf" />
+        <activity android:name=".Tasavvuf.TasavvufGosterimi" />
+        <activity android:name=".Sureler.SurelerMenu" />
+        <activity android:name=".Sureler.SurelerGosterim" />
+        <activity android:name=".Sadatikiram.SadatlarListe" />
+        <activity android:name=".Sadatikiram.SadatlarListe2" />
+        <activity android:name=".Sadatikiram.SadatlarListe3" />
+        <activity android:name=".Sadatikiram.SadatlarListe4" />
+        <activity android:name=".Sadatikiram.SadatlarListe5" />
+        <activity android:name=".Sadatikiram.SadatlarListe6" />
+        <activity android:name=".Sadatikiram.SadatlarListe7" />
+        <activity android:name=".Sadatikiram.SadatlarListe8" />
+        <activity android:name=".Sadatikiram.SadatlarMenu" />
+        <activity android:name=".Sadatikiram.SadatlarGoster" />
+        <activity android:name=".Quran.Quran" />
+        <activity android:name=".PdfGörüntüleme.PdfGoruntuleme" />
+        <activity android:name=".Menüm.AnaMenu" />
+        <activity android:name=".Menüiki.Menuiki" />
+        <activity android:name=".Kütüphane.TasavvufiEserler" />
+        <activity android:name=".Kütüphane.KutuphaneMenu" />
+        <activity android:name=".Kütüphane.KutuphaneGosterim" />
+        <activity android:name=".Kütüphane.KutuphaneGenel" />
+        <activity android:name=".Kütüphane.İlmihaller.Safiilmihali.Safiİlmihali" />
+        <activity android:name=".Kütüphane.Mektubatlar.MektubatıRabbani.MektubatiRabbani" />
+        <activity android:name=".KazaNamazlari.KazaHesaplayici" />
+        <activity android:name=".KazaNamazlari.KazaMenu" />
+        <activity android:name=".KazaNamazlari.KazaNamazlari" />
+        <activity android:name=".HtmlGosterici.HtmlGosterici" />
+        <activity android:name=".HatmeEkrani.HatmeAnaEkrani" />
+        <activity android:name=".HatmeEkrani.HatmeGosterimi" />
+        <activity android:name=".HatmeEkrani.HatmeTasHesaplayici" />
+        <activity android:name=".Walpaper.Admin" />
+        <activity android:name=".Walpaper.Category_name" />
+        <activity android:name=".Walpaper.MainActivity" />
+        <activity android:name=".Walpaper.Full_screen" />
+        <activity android:name=".SanalKütüphane.Admin" />
+        <activity android:name=".SanalKütüphane.Category_name" />
+        <activity android:name=".SanalKütüphane.Full_screen" />
+        <activity android:name=".SanalKütüphane.MainActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.package.name.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <receiver
+            android:name=".MainFragments.TabNamazVakti.Notify.ActionReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name=".MainFragments.TabNamazVakti.Notify.DeletePendingIntent"
+            android:enabled="true" />
+        <receiver android:name=".MainFragments.TabNamazVakti.Notify.NotificationPublisher" />
+        <receiver android:name=".MainFragments.TabNamazVakti.Notify.BootNotifyMe">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".Deneme.DownloadService" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
+</manifest>

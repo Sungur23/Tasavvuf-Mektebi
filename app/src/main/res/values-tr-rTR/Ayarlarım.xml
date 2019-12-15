@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="dilacık">Açık</string>
+    <string name="dilkapalı">Kapalı</string>
+
+
+    <string name="sesacık">Ses açıldı</string>
+    <string name="seskapalı">Ses kapandı</string>
+</resources>

@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Genellayout"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/mevcutsüre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/toplamsüre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:gravity="center"
+        android:background="@color/red"
+        android:fitsSystemWindows="true"
+        android:theme="@style/GenelTema.AppBarOverlay">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/video_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/namaz2">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/mp3url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/urldönüsüm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/black_opacity_60"
+            android:id="@+id/mp3göster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.thebrownarrow.customfont.CustomFontTextView
+                        android:text="Dersin Adı"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="22sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:custom_typeface="yt7.ttf"
+                        android:textStyle="bold" />
+
+                    <com.thebrownarrow.customfont.CustomFontTextView
+                        android:id="@+id/sureadı"
+                        android:text="Dinleyerek Öğren"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:textColor="@color/yellow"
+                        android:textSize="21sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:custom_typeface="yt7.ttf"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:id="@+id/indirlayout"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:textSize="19sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dinlemek için indir :" />
+
+                        <Button
+                            android:id="@+id/sureindir"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/down" />
+                    </LinearLayout>
+                    <include
+                        layout="@layout/oynatlayout" />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/notalmusic" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</LinearLayout>

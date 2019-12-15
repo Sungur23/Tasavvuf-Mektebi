@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tab_name">
+        <item>Kuran</item>
+        <item>Namaz Vakitleri</item>
+        <item>Daha Fazla</item>
+    </array>
+
+
+    <array name="surah_name">
+        <item>Fâtiha Sûresi</item>
+        <item>Bakara Sûresi</item>
+        <item>Al-i İmran Suresi</item>
+        <item>Nisa Suresi</item>
+        <item>Maide Suresi</item>
+        <item>En’am Suresi</item>
+        <item>A’raf Suresi</item>
+        <item>Enfal Suresi</item>
+        <item>Tevbe Suresi</item>
+        <item>Yunus Suresi</item>
+        <item>Hud Suresi</item>
+        <item>Yusuf Suresi</item>
+        <item>Ra’d Suresi</item>
+        <item>İbrahim Suresi</item>
+        <item>Hicr Suresi</item>
+        <item>Nahl Suresi</item>
+        <item>İsra Suresi</item>
+        <item>Kehf Suresi</item>
+        <item>Meryem Suresi</item>
+        <item>Taha Suresi</item>
+        <item>Enbiya Suresi</item>
+        <item>Hac Suresi</item>
+        <item>Mü’minun Suresi</item>
+        <item>Nur Suresi</item>
+        <item>Furkan Suresi</item>
+        <item>Şuara Suresi</item>
+        <item>Neml Suresi</item>
+        <item>Kasas Suresi</item>
+        <item>Ankebut Suresi</item>
+        <item>Rum Suresi</item>
+        <item>Lokman Suresi</item>
+        <item>Secde Suresi</item>
+        <item>Ahzab Suresi</item>
+        <item>Sebe Suresi</item>
+        <item>Fatır Suresi</item>
+        <item>Yasin Suresi</item>
+        <item>Saffat Suresi</item>
+        <item>Sad Suresi</item>
+        <item>Zümer Suresi</item>
+        <item>Ğafir (Mü’min) Suresi</item>
+        <item>Fussilet Suresi</item>
+        <item>Şura Suresi</item>
+        <item>Zuhruf Suresi</item>
+        <item>Duhan Suresi</item>
+        <item>Casiye Suresi</item>
+        <item>Ahkaf Suresi</item>
+        <item>Muhammed Suresi</item>
+        <item>Fetih Suresi</item>
+        <item>Hucurat Suresi</item>
+        <item>Kaf Suresi</item>
+        <item>Zariyat Suresi</item>
+        <item>Tur Suresi</item>
+        <item>Necm Suresi</item>
+        <item>Kamer Suresi</item>
+        <item>Rahman Suresi</item>
+        <item>Vakia Suresi</item>
+        <item>Hadid Suresi</item>
+        <item>Mücadele Suresi</item>
+        <item>Haşr Suresi</item>
+        <item>Mümtehine Suresi</item>
+        <item>Saf Suresi</item>
+        <item>Cuma Suresi</item>
+        <item>Münafikun Suresi</item>
+        <item>Teğabun Suresi</item>
+        <item>Talak Suresi</item>
+        <item>Tahrim Suresi</item>
+        <item>Mülk Suresi</item>
+        <item>Kalem Suresi</item>
+        <item>Hakka Suresi</item>
+        <item>Mearic Suresi</item>
+        <item>Nuh Suresi</item>
+        <item>Cin Suresi</item>
+        <item>Müzzemmil Suresi</item>
+        <item>Müddessir Suresi</item>
+        <item>Kıyamet Suresi</item>
+        <item>İnsan Suresi</item>
+        <item>Mürselat Suresi</item>
+        <item>Nebe Suresi</item>
+        <item>Naziat Suresi</item>
+        <item>Abese Suresi</item>
+        <item>Tekvir Suresi</item>
+        <item>İnfitar Suresi</item>
+        <item>Mutaffifin Suresi</item>
+        <item>İnşikak Suresi</item>
+        <item>Buruc Suresi</item>
+        <item>Tarık Suresi</item>
+        <item>A’la Suresi</item>
+        <item>Ğaşiye Suresi</item>
+        <item>Fecr Suresi</item>
+        <item>Beled Suresi</item>
+        <item>Şems Suresi</item>
+        <item>Leyl Suresi</item>
+        <item>Duha Suresi</item>
+        <item>İnşirah (Şerh) Suresi</item>
+        <item>Tin Suresi</item>
+        <item>Alak Suresi</item>
+        <item>Kadir Suresi</item>
+        <item>Beyyine Suresi</item>
+        <item>Zilzal (Zelzele) Suresi</item>
+        <item>Adiyat Suresi</item>
+        <item>Karia Suresi</item>
+        <item>Tekasür Suresi</item>
+        <item>Asr Suresi</item>
+        <item>Hümeze Suresi</item>
+        <item>Fil Suresi</item>
+        <item>Kureyş Suresi</item>
+        <item>Maun Suresi</item>
+        <item>Kevser Suresi</item>
+        <item>Kafirun Suresi</item>
+        <item>Nasr Suresi</item>
+        <item>Mesed Suresi</item>
+        <item>İhlas Suresi</item>
+        <item>Felak Suresi</item>
+        <item>Nas Suresi</item>
+    </array>
+    <string name="app_name">Tasavvuf Mektebi</string>
+
+    <string name="Kazanedir">"Bir namazı vaktinde kılmaya \"edâ\" vaktinden sonra kılmaya da \"kaza\" denir. Vaktinde kılınamayan namaza \"faite\" denir. Çoğulu \"fevait\"'tir.\n"
+        "\n"
+        "Vaktinde kılınmamış olan beş vakit farz namazın kazası farz, vitir namazının kazası ise vacip olur. Kaza edilecek sünnet sayısı azdır. Şöyle ki, bir sabah namazının farzı ile birlikte sünneti de vaktinde kılınamamışsa, o günün, güneşin doğmasından 50-55 dakika kadar sonra öğle namazını vaktinden biraz önceye kadar bu sünnet, farz ile beraber kaza edilir. Kuşluk vaktinden önce ve istivadan sonra kaza edilemez. İmam Muhammed'e göre bu sünnet yalnız olarak da vaktinde kılınmamış olsa yine kuşluk vakti ile istiva arasında kaza edilir.\n"
+        "\n"
+        "Bir özür olmaksızın namazın kazaya bırakılması büyük günahlardandır. Allah Teâlâ şöyle buyurur: \"Güvene kavuştuğunuz zaman namazı kılın. Çünkü namaz mü'minlere vakitleri belirlenmiş olarak farz kılınmıştır.\" (en-Nisa, 4/103) Namazı özürsüz kazaya bırakmanın günahı o namazı kaza etmekle kalkmaz, ayrıca tevbe etmek de gerekir.\n"
+        "\n"
+        "Meşru bir özür sebebiyle namaz kazaya bırakılabilir. Bu özürler: Düşman korkusu, bir ebenin doğum yapacak kadının başından ayrılması halinde çocuğun veya annesinin öleceğinden korkması bu özürler arasında sayılabilir.\n"
+        "\n"
+        "Namazı bilerek ve tembelliği yüzünden kazaya bırakan kimse günahkar olur ve bu namazı kaza etmesi vaciptir.\n"
+        "\n"
+        "Kazaya kalan namazlar nasıl eda edilir?\n"
+        "\n"
+        "Bir namazın eda şekli nasılsa kazası da aynı olur. Mesela seferde iken dört rekatlı bir namazı kaçıran kimse bunları ister seferde isterse asli vatanına döndükten sonra kaza ederken iki rekat olarak kaza eder. İkamet halinde tam olarak kılınması gereken namazları kazaya bırakan kimse de bunları hazarda veya seferde yine tam olarak kaza eder.\n"
+        "\n"
+        "Namaz kaza edilirken bir sıra gözetilmesi gerekir mi? Eğer namazı kaza edecek kişi tertip sahibi ise, kaza namazı ile vakit namazı arasındaki sıraya uymak gerekir. Tertip sahibi değilse, bu namazı kaza etmeden diğerlerini kılabilir.\n"
+        "\n"
+        "Bir kimsenin tertip sahibi sayılması için altı vakitten fazla namazı kaza kalmamış olmalıdır. Vitir namazı dahil altı vakit namazı kazaya kalınca tertip sahibi olmaktan çıkar.\n"
+        "\n"
+        "Bir kimse ne kadar namazının kazaya kalmış olduğunu bilmese, galip olan kanaate göre hareket eder. Eğer böyle bir karara varamazsa, borcundan kurtulduğuna kanaat getirinceye kadar kaza namazı kılması gerekir.\n"
+        "\n"
+        "Kaza namazı kılan kimsenin yanında cemaatle vakit namazına başlanırsa, namazını tamamlamadıkça cemaate iştirak edemez.\n"
+        "\n"
+        "Kaza namazını evde kılmak daha uygundur. Çünkü bunu açığa vurmak Cenab-ı Hakka karşı bir cür'et sayılır ve başkaları için kötü örnek teşkil edebilir.\n"
+        "\n"
+        "Kaza namazları üç kerahet vakti dışında her vakitte kılınabilir. Bunlar: Güneşin doğma, batma ve zeval (güneş tam tepedeyken) vaktidir.\n"
+        "\n"
+        "Kaza namazıyla meşgul olmak nafile namazla meşgul olmaktan daha önemlidir. Fakat beş vakte bağlı olan sünnetler müekked olsun gayri müekked olsun bundan müstesnadır. Yani sünnetleri terk ederek, bunların yerine kazaya niyet etmek uygun değildir. Aksine bu sünnetlere niyet edilmesi daha uygundur. Hatta kuşluk ve teheccüd namazı gibi haklarında hadis bulunan namazlar da böyledir. Bunlara da bu şekilde nafile olarak niyet edilmesi evlâdır. Çünkü bu sünnetler farz namazlarını tamamlar. Ayrıca bunların telafisi mümkün değildir. Kaza namazlarının ise belirli vakitleri olmadığı için telafileri mümkündür.\n"
+        "\n"
+        "Farz namazlarını kazaya bırakarak günaha giren kimsenin, bu günahtan kurtulmak için sünnetleri feda etmesi uygun değildir. Böyle bir kimsenin fazla ibadet yaparak Yüce Allah'ın affına sığınması gerekirken, kendisi için Rasulullah (s.a.)'ın şefaatinin tecellisine vesile olacak bir kısım sünnetleri, nafileleri terk etmesi nasıl uygun olabilir? Hem farzları kazaya bırakmak hem de vakit namazlarını sünnetten tecrit etmek iki kat kusur olmaz mı? Fetvaya esas olan görüş budur. Bu görüş Ömer Nasuhi BİLMEN Merhuma aittir.\n"
+        "\n"
+        "Editörün notu:\n"
+        "\n"
+        "Sabah namazının kazası: 2 rekat farzı kılınır.\n"
+        "\n"
+        "Öğle namazının kazası: 4 rekat farzı kılınır.\n"
+        "\n"
+        "İkindi namazının kazası: 4 rekat farzı kılınır.\n"
+        "\n"
+        "Akşam namazının kazası: 3 rekat farzı kılınır.\n"
+        "\n"
+        "Yatsı namazının kazası: 4 rekat farzı kılınır.\n"
+        "\n"
+        "Vitir namazının kazası: 3 rekat aynen kılınır.\n"
+        "\n"
+        "Kaynak: Prof. Dr. Hamdi DÖNDÜREN, Delilleriyle İslam İlmihali s.,388-393."</string>
+
+    <string name="SalavatNot">Devam edebilmek için en az 5 tane Salavat-ı Şerif hediye etmelisin</string>
+    <string name="tasavvufzikir0"> Zikir Bölümü</string>
+    <string name="tasavvufzikir1"> Zikir Çekmenin Faydaları</string>
+    <string name="tasavvufzikir2"> Zikirin Terbiyedeki Rolü-1</string>
+    <string name="tasavvufzikir3"> Zikirin Terbiyedeki Rolü-2</string>
+    <string name="tasavvufbilgi0"> Tasavvufa Dair</string>
+    <string name="tasavvufbilgi1"> Sufilik Nedir?</string>
+    <string name="tasavvufbilgi2"> Salikin Yetişmesi</string>
+    <string name="tasavvufbilgi3"> Mürid Olmanın Şartları</string>
+    <string name="tasavvufbilgi4"> Manevi Şifa Nasıl Bulunur</string>
+    <string name="tasavvufbilgi5"> Mürşide Bağlılığın Gerekliliği </string>
+    <string name="tasavvufbilgi6"> Mürşid-i Kamilin Alametleri</string>
+    <string name="tasavvufbilgi7"> Tasavvuf Ne Demektir?</string>
+    <string name="tasavvufbilgi8"> Yolun Rükunları</string>
+    <string name="tasavvufbilgi9"> Kuran ve Sünnetten Deliller</string>
+    <string name="tasavvufbilgi10"> Salihlerle Birlikte Olmak</string>
+    <string name="tasavvufbilgi11"> Müçtehidlerin Görüşleri</string>
+    <string name="tasavvufbilgi12"> Tasavvufi Terimler</string>
+    <string name="tasavvufbilgi13"> Tasavvuf Ehli Olanlar</string>
+    <string name="tasavvufbilgi14"> Tasavvufun Tarihçesi</string>
+    <string name="tasavvufbilgi15"> Teslimiyet</string>
+    <string name="tasavvufbilgi16"> Tasavvufun Önemi</string>
+
+    <string name="tasavvufbilgi17"> Tasavvuf ve ihsan</string>
+    <string name="quran">Kuran</string>
+    <string name="prayer">Imsakiye</string>
+
+    //More items
+    <string name="more">Daha Fazla</string>
+    <string name="zikirmatik">Zikirmatik</string>
+    <string name="kibleBul">Kıble bul</string>
+    <string name="cumaMesajlari">Cuma mesajları</string>
+
+    //Dini Bilgiler
+    <string name="diniBilgiler">Dini bilgiler</string>
+    <string name="IBADET_NEDIR">İbadet Nedir</string>
+    <string name="IMANIN_SARTLARI">İmanın Şartları</string>
+    <string name="ISLAMIN_SARTLARI">İslamın Şartları</string>
+    <string name="OTUZIKI_FARZ">32 Farz</string>
+    <string name="ELLIDORT_FARZ">54 Farz</string>
+    <string name="FARZ_NEDIR">Farz Nedir</string>
+    <string name="SUNNET_NEDIR">Sünnet Nedir</string>
+    <string name="VACIP_NEDIR">Vacip Nedir</string>
+    <string name="KELIMEI_SAHADET">Kelime-i Şahadet</string>
+    <string name="EZAN">Ezan</string>
+    <string name="KELIMEI_TEVHID">Kelime-i Tevhid</string>
+    <string name="NAMAZ_REKATLARI">Namaz Rekatları</string>
+    <string name="ABDEST_NASIL_ALINIR">Abdest Nasıl Alınır</string>
+    <string name="ERKEKLER_NAMAZ_NASIL">Erkekler Nasıl Namaz Kılar</string>
+    <string name="KADINLAR_NAMAZ_NASIL">Kadınlar Nasıl Namaz Kılar</string>
+    <string name="ISLAM_NEDIR">İslam</string>
+    <string name="NAMAZ">Namaz</string>
+    <string name="ORUC">Oruç</string>
+    <string name="ZEKAT">Zekat</string>
+    <string name="ADAK">Adak</string>
+
+    //Cuma mesaji more settings
+    <string name="ESMAUL_HUSNA">Esma-ül Husna</string>
+    <string name="CUMA_BACK_IMAGE">Arkaplan resim</string>
+    <string name="CUMA_DUZ_TEMA">Düz tema</string>
+    <string name="CUMA_HAZIR_MESSAGE">Hazır mesaj</string>
+    <string name="CUMA_MSG_COLOR">Mesaj rengi</string>
+    <string name="CUMA_MSG_SIZE">Mesaj boyutu</string>
+    <string name="CUMA_MSG_KENDIN_YAZ">Kendin yaz</string>
+
+    <string name="HOLD_PARALLEL">Lütfen telefonu yere paralel tutunuz</string>
+    <string name="ayah">Ayet</string>
+    <string name="options">Seçenekler</string>
+    <string name="viewOptions">Gösterim Seçenekleri</string>
+    <string name="textOptions">Metin Ayarları</string>
+    <string name="language">Dil</string>
+    <string name="translationLanguage">Meal dili</string>
+    <string name="showTransliteration">Okunuşu Göster</string>
+    <string name="showTranslation">Meali Göster</string>
+    <string name="fontArabic">Arapça yazı tipi</string>
+    <string name="fontSizeArabic">Arapça metin boyutu</string>
+    <string name="fontSizeTransliteration">Okunuş metin boyutu</string>
+
+    <string name="fontSizeTranslation">Meal metin boyutu</string>
+    <string name="SAVE">Kaydet</string>
+    <string name="SAVE_ON">Üzerine Yaz</string>
+    <string name="MY_DHIKR">Zikirlerim</string>
+    <string name="NIGHT_MODE_MESSAGE">Gece modunda arkaplan rengi değiştirilemez</string>
+    <string name="UPPERYES">EVET</string>
+    <string name="UPPERNO">HAYIR</string>
+    <string name="WARNING_RESET_COUNTER">Sayacı sıfırlamak istediğinize emin misiniz?</string>
+    <string name="COUNTER_NUM_IS_ZERO">Sayaç sayısı 0</string>
+    <string name="OK">TAMAM</string>
+    <string name="CANCEL">İPTAL</string>
+    <string name="SAVE_TO_LIST">Listeye Kaydet</string>
+    <string name="PLEASE_GIVE_A_NAME">Lütfen bir isim belirleyin</string>
+    <string name="THERE_IS_SAME_ZIKIR">Aynı zikirden var</string>
+    <string name="CONTINUE">Devam et</string>
+    <string name="DELETE">Sil</string>
+    <string name="DHIKR_WILL_BE_CONTINUED">dhikr will be continued</string>
+    <string name="WAS_RECORDED">Kaydedildi</string>
+    <string name="GOOD_FRIDAY_MESSAGE">HAYIRLI CUMALAR</string>
+    <string name="FINISH">Bitir</string>
+    <string name="WHATSAPP_NOT_INSTALLED">Whatsapp yüklü değil</string>
+    <string name="UNEXPECTED_ERROR">Beklenmeyen hata oluştu</string>
+    <string name="SHARE">Paylaş</string>
+
+    <!-- Location Settings constants-->
+    <string name="WRITE_SOMETHING">Bir şeyler yaz...</string>
+    <string name="gpsSettings">GPS Ayarları</string>
+    <string name="gpsSettingMessage">GPS etkin değil. Konumu etkinleştirmek ve almak için ayarlara tıklayın, lütfen GPS"i açtıktan sonra uygulamayı tekrar başlatın.</string>
+    <string name="settings">Ayarlar</string>
+    <string name="msg_permission_not_granted_yet">Konum erişimi henüz mevcut değil</string>
+    <string name="qible_location_access_required">Kıbleyi bulmak için lokasyon erişimi gerekiyor</string>
+    <string name="location_not_ready">Konum hazır değil, lütfen tekrar deneyin.</string>
+    <string name="qibla_direction">Kâbe Yönü:</string>
+    <string name="degree_from_north">derece kuzeyden.</string>
+
+    <string name="pls_enable_location">Lütfen konumu açıp tekrar deneyin.</string>
+    <string name="cancel">İptal</string>
+    <string name="apply">Uygula</string>
+    <string name="letterA">A</string>
+    <string name="arabicWord">بِسْــمِ اﷲِارَّحْمَنِ ارَّحِيم</string>
+    <string name="transliterationWord">Bismillahirrahmanirrahîm</string>
+
+    <string name="translationWord">Rahman ve Rahim Olan Allah’ın Adı ile</string>
+    <string name="downloadLanguagePAck">Dil paketi yüklensin mi?</string>
+    <string name="loading">Yükleniyor</string>
+    <string name="country">Ülke</string>
+    <string name="city">Şehir</string>
+    <string name="county">İlçe</string>
+
+    <string name="change">Değiştir</string>
+    <string name="date">Tarih</string>
+    <string name="imsak">İmsak</string>
+    <string name="gunes">Güneş</string>
+    <string name="ogle">Öğle</string>
+    <string name="ikindi">İkindi</string>
+    <string name="aksam">Akşam</string>
+    <string name="yatsi">Yatsı</string>
+    <string name="today">Bugün</string>
+    <string name="setLocation">Konumunuz @ilce@ olarak ayarlansın mı?</string>
+    <string name="imsakiye">İmsakiye</string>
+    <string name="selectLocation">Konum Seç</string>
+    <string name="alarm">Alarm</string>
+
+    <string name="timeNotifications">Namaz Vakti Bildirimleri</string>
+    <string name="imsakNotifSettings">İmsak Vakti Uyarıları</string>
+    <string name="gunesNotifSettings">Güneş Vakti Uyarıları</string>
+    <string name="ogleNotifSettings">Öğle Vakti Uyarıları</string>
+    <string name="ikindiNotifSettings">İkindi Vakti Uyarıları</string>
+    <string name="aksamNotifSettings">Akşam Vakti Uyarıları</string>
+    <string name="yatsiNotifSettings">Yatsı Vakti Uyarıları</string>
+    <string name="before">Önce:</string>
+    <string name="exactime">Vaktinde:</string>
+    <string name="enabled">Açık</string>
+
+    <string name="disabled">Kapalı</string>
+    <string name="notifSituation">Durumu</string>
+    <string name="notifTime">Uyarı Süresi</string>
+    <string name="notifMelody">Uyarı Melodisi</string>
+    <string name="adjustNotificationDetail">Bildirim Detayı Ayarla</string>
+    <string name="headerTextBefore">Vaktinden Önce Uyarı</string>
+    <string name="headerTextExact">Vaktinde Uyarı</string>
+    <string name="minutes">dakika</string>
+    <string name="time">Vakti</string>
+    <string name="minutesRemain">dakika kaldı!</string>
+    <string name="remainder">Hatırlatma</string>
+    <string name="dismiss">Kapat</string>
+    <string name="display">Görüntüle</string>
+    <string name="notifications">Bildirimler:</string>
+    <string name="no_accelometer_sensor">Cihazda ivme sensörü bulunmuyor</string>
+
+    <string name="no_magnetic_field_sensor">Cihazda manyetik alan sensörü bulunmuyor</string>
+
+
+    <string name="zeroTime">00:00</string>
+
+    <string name="seperator">---</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="country_prompt">Choose Categoty</string>
+    <string name="delalül">"Türkler arasında daha çok Delâʾil-i Şerîf, Delâʾil-i Hayrât ve Delâʾil diye bilinen risâlenin tam adı Delâʾilü’l-hayrât ve şevâriku’l-envâr fî zikri’s-salât ʿale’n-nebiyyi’l-muhtâr’dır. Şâzeliyye tarikatının Cezûliyye kolunun kurucusu olan Şeyh Cezûlî’nin bu risâlesi müridleri arasında bir tarikat evrâdı olarak çok okunmuş ve dolayısıyla çok sayıda istinsah edilmiştir. Eserin nüshaları arasında bazı farklar görüldüğünden Cezûlî’nin müridi ve halifesi Ebû Abdullah es-Sehlî farklılık gösteren nüshaları düzenleyerek vefatından sekiz yıl önce şeyhine sunmuş, şeyh de bu fazlalıkların bir bölümünü Delâʾil metnine dahil etmiştir. Delâʾil’in bu tür nüshalarına “nüsha-i dâhiliyye-i Sehliyye”, satırların dışına kaydettiği fark ve fazlalıkları ihtiva eden nüshalarına ise “nüsha-i hâriciyye-i Sehliyye” adı verilmiştir. Delâʾil’in Sehlî tertibi olmayan nüshaları da mutemet olan ve olmayan diye ikiye ayrılır. Mutemet olanların satır içine yazılanına “mu‘temede-i dâhiliyye”, satır dışına yazılanına “mu‘temede-i hâriciyye” denir. Mutemet olmayanlar ise daima satır dışına yazılır. Bu farklar “sin”, “gayın” ve “mim” harfleriyle gösterilir. Bu durum eserin metnine verilen değeri açık bir şekilde göstermektedir.\n"
+        "\n"
+        "Delâʾil’i sadece Cezûliyye veya Şâzeliyye mensupları değil diğer tarikat mensupları, hatta bir tarikata bağlı olmayan müslümanlar dahi faziletine inanarak düzenli bir biçimde okumuşlardır. Önsözünde, salavatı belli zamanlarda düzenli bir şekilde okuyanların çok sevap kazanacakları, Hz. Peygamber’in şefaatine nâil olacakları, günahlarının affedileceği, kötü huyları terkedip iyi huylar edinecekleri, maddî ihtiyaçlarının karşılanacağı ve dünya işlerinin düzeleceği belirtilmiştir. Bu salavatı düzenlemiş olması sebebiyle Cezûlî’nin kabrinin misk gibi koktuğuna inanılır.\n"
+        "\n"
+        "Delâʾil’in yazılış sebebini anlatan bir menkıbeye göre keramet sahibi bir kız çocuğu, Cezûlî’ye bu mertebeye Hz. Peygamber’e salavat okuyarak ulaştığını söylemiş, ancak onun ısrarına rağmen bu salavatın metnini kendisine söylemeyip belli salavatların içinde bulunduğunu ifade etmiş, bunun üzerine Cezûlî bütün meşhur salavatları derleyip kıza göstermiş, kız da söz konusu salavatın bu derlemede birkaç defa geçtiğini bildirmiştir. Diğer bir menkıbeye göre ise Cezûlî’nin bu eseri yazmasına keramet sahibi olan hanımı sebep olmuştur.\n"
+        "\n"
+        "Delâʾil her gün, gün aşırı, dört günde veya haftada bir defa olmak üzere beş tertip üzere okunur. Okumaya pazartesi günü başlanır; hangi gün nerelerin okunacağı sayfa kenarına not edilmiştir. Delâʾil’i okumaya başlamadan önce niyet ve istiğfar etmek, esmâ-i hüsnâ okumak, başlama ve bitirme duası yapmak âdâbdandır. Delâʾil okumak için izin almak gerektiğine, izinsiz okuyanların çıldırdıklarına dair söylentilerin aslı yoktur. Fakat ehlinden usulüne göre Delâʾil okumanın öğrenilmesi tavsiye edilir.\n"
+        "\n"
+        "Kuzey Afrika’da ve özellikle Anadolu’da büyük bir rağbet gören Delâʾil, Mısır ve İstanbul’da 1260-1320 (1844-1902) yılları arasında on dört defa basılmıştır (bk. Karatay, Arapça Basmalar, s. 441). Risâlenin ayrıca Petersburg’da yapılmış bir baskısı bulunmaktadır (1258/1842).\n"
+        "\n"
+        "Birçok şerhi yapılan (bk. Keşfü’z-zunûn, I, 759; Brockelmann, GAL, II, 328; GAL Suppl., II, 360) eserin Türkçe şerhleri de vardır. Bunların en meşhuru Karadâvudzâde Mehmed Efendi’nin (ö. 1170/1756) yaptığı şerh olup Tevfîku muvaffikı’l-hayrât fî îzâhi meânî Delâili’l-hayrât (Tevfîku muvaffıki’l-hayrât li-neyli’l-berekât fî hidmeti menbai’s-saâdât) adını taşıyan bu eser birçok defa basılmıştır (bk. Özege, Katalog, IV, 1645; Türkçe tercüme ve şerhler için bk. Osmanlı Müellifleri, I, 399). Karadâvudzâde diğer kaynaklardan aktardığı tasavvufî menkıbe ve bilgilerle eserin hacmini oldukça genişletmiştir (İstanbul 1254, 897 sayfa).\n"
+        "\n"
+        "Şeyh Hasan el-Adevî’nin Bulûgu’l-müsirrât ʿalâ Delâʾili’l-hayrât (Mısır 1289), Muhammed Mehdî el-Fâsî’nin Meṭâliʿu’l-müsirrât bi-cilâʾi Delâʾili’l-ḫayrât (Mısır 1298) adlı Arapça şerhleri basılmıştır.\n"
+        "\n"
+        "\n"
+        "BİBLİYOGRAFYA\n"
+        "Muhammed Mehdî el-Fâsî, Mümettiʿu’l-esmâʾ fî ẕikri’l-Cezûlî, Fas 1313, s. 2-33.\n"
+        "\n"
+        "Keşfü’ẓ-ẓunûn, I, 759.\n"
+        "\n"
+        "el-Ḥulelü’s-sündüsiyye, I, 280.\n"
+        "\n"
+        "Hediyyetü’l-ʿârifîn, II, 331.\n"
+        "\n"
+        "Îżâḥu’l-meknûn, I, 340.\n"
+        "\n"
+        "Osmanlı Müellifleri, I, 399.\n"
+        "\n"
+        "Brockelmann, GAL, II, 327-328; Suppl., II, 359-360.\n"
+        "\n"
+        "Nebhânî, Kerâmâtü’l-evliyâʾ, I, 165.\n"
+        "\n"
+        "Karatay, Arapça Basmalar, s. 441.\n"
+        "\n"
+        "Özege, Katalog, IV, 1645."</string>
+
+    <string-array name="prayerTimes">
+        <item>İmsak</item>
+        <item>Güneş</item>
+        <item>Öğle</item>
+        <item>İkindi</item>
+        <item>Akşam</item>
+        <item>Yatsı</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </string-array>
+    <string-array name="sounds">
+        <item>Varsayılan</item>
+        <item>Melodi 1</item>
+        <item>Kuş sesi</item>
+        <item>Güzel Islam 1</item>
+        <item>Güzel Islam 2</item>
+        <item>El Habib</item>
+        <item>Allahu Allahu</item>
+        <item>Ayet El Kürsi</item>
+        <item>Bismillah 1</item>
+        <item>Bismillah 2</item>
+        <item>Bismillahillezi</item>
+        <item>Ezan 1</item>
+        <item>Ezan 2</item>
+        <item>Ezan 3</item>
+        <item>Esselatu Hayrun Minen Nevm</item>
+        <item>Lebbeyk</item>
+        <item>Allah\'ın İsimleri</item>
+        <item>Quran</item>
+    </string-array>
+    <string-array name="arabic_font_code">
+        <item>amiri.ttf</item>
+        <item>me_quran.ttf</item>
+        <item>noorehira.ttf</item>
+        <item>PDMS_IslamicFont.ttf</item>
+        <item>PDMS_Saleem_QuranFont.ttf</item>
+        <item>Scheherazade-Regular.ttf</item>
+        <item>Uthmani.otf</item>
+        <item>uthmanic_hafs_ver12.otf</item>
+    </string-array>
+
+
+    <string-array name="translation_list">
+        <item>quran_original.json</item>
+        <item>quran_simple_clean.json</item>
+        <item>quran_tajweed.json</item>
+        <item>quran_translation_list.json</item>
+        <item>quran_translation_tr_diyanet.json</item>
+        <item>quran_transliteration_en.json</item>
+        <item>quran_transliteration_tr.json</item>
+        <item>quran_uthmani.json</item>
+    </string-array>
+
+
+    <string-array name="arabic_font">
+        <item>Amiri</item>
+        <item>Me Quran</item>
+        <item>Noorehira</item>
+        <item>PDMS Islamic</item>
+        <item>PDMS Quran</item>
+        <item>Scheherazade</item>
+        <item>Uthmani</item>
+        <item>Uthmani Ver12</item>
+    </string-array>
+
+</resources>

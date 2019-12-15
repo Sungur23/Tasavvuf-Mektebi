@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_50_percent_opacity"
+    tools:context=".Kütüphane.KutuphaneGenel">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <com.thebrownarrow.customfont.CustomFontTextView
+            android:textColor="@color/accent"
+            android:text="Kütüphaneler"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:custom_typeface="yt7.ttf" />
+
+
+        <LinearLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Sabit"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/book"
+                    android:clickable="true"
+                    android:textColor="@android:color/white" />
+
+                <com.thebrownarrow.customfont.CustomFontTextView
+                    app:custom_typeface="yt7.ttf"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sabit Kütüphanem" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Degisgen"
+                    android:background="@drawable/photo60"
+                    android:clickable="true"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"/>
+
+                <com.thebrownarrow.customfont.CustomFontTextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Sanal Kitapçı"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:custom_typeface="yt7.ttf"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/inmiş"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/down"
+                    android:clickable="true"
+                    android:textColor="@android:color/white" />
+
+                <com.thebrownarrow.customfont.CustomFontTextView
+                    app:custom_typeface="yt7.ttf"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="İndirdiğim Kitaplar" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

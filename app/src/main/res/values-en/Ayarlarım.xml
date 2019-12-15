@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="dilacık">On</string>
+    <string name="dilkapalı">Off</string>
+
+    <string name="sesacık">Sound On</string>
+    <string name="seskapalı">Sound Off</string>
+
+
+</resources>

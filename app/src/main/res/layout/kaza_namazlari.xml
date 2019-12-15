@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fafafa"
+    android:orientation="vertical"
+    tools:context=".KazaNamazlari.KazaNamazlari">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <com.github.florent37.arclayout.ArcLayout
+            android:id="@+id/diagonalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:elevation="10dip"
+            app:arc_cropDirection="cropOutside"
+            app:arc_position="bottom"
+            app:arc_height="50dp"
+            >
+
+            <com.flaviofaria.kenburnsview.KenBurnsView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/namaz"
+                />
+
+
+        </com.github.florent37.arclayout.ArcLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/diagonalLayout"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="5dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/vav"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#979696"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+
+                android:text="Sabah Namazı" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/buttonshape5"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/sazalt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt7" />
+
+                <TextView
+                    android:id="@+id/sabahtext"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/sarttır"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt6" />
+            </LinearLayout>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#979696"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Öğle Namazı" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/öazalt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt7" />
+
+                <TextView
+                    android:id="@+id/öğletext"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/öarttır"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt6" />
+            </LinearLayout>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#979696"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+
+                android:text="İkindi Namazı" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/buttonshape5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/iazalt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt7" />
+
+                <TextView
+                    android:id="@+id/ikinditexxt"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/iarttır"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt6" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#979696"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Akşam Namazı" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/aazalt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt7" />
+
+                <TextView
+                    android:id="@+id/akşamtext"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/aarttır"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:background="@drawable/basmaefekt6" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#979696"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+
+                android:text="Yatsı Namazı" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/buttonshape5"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/yazalt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt7" />
+
+                <TextView
+                    android:id="@+id/yatsıtext"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/yarttır"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt6" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textColor="#979696"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+
+                android:text="Vitr Namazı" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/buttonshape"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/vazalt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt7" />
+
+                <TextView
+                    android:id="@+id/vitrtext"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/varttır"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/basmaefekt6" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

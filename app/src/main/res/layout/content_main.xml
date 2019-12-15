@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:gl="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AnaEkran.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    style="@style/parent.contentLayout"
+    android:background="#00000000">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Tasavvuf \n Mektebi"
+                    style="@style/viewParent.headerText"
+                    android:layout_gravity="bottom"/>
+
+                <ImageView
+                    android:visibility="visible"
+                    android:id="@+id/thumb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ravza"
+                    android:adjustViewBounds="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tarikatlar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/mn00001"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Tarikatlar"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/kütüphane"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/kitaplar4"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Kütüphane"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/Evliyalaransiklopedisi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/photo130"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/EvliyalarAnsiklopedisi"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/kazanamazları"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/kazaicon"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Kazanamazlarım"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sureler"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/cc10"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/NamazSureleri"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/Kuran"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/quran3"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Kuranıkerim"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/Delalül"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/photo128"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="Delalül Hayrat"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/Tasavvuf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/cc6"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Tasavvuf"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/Hatme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/cc7"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Hatmeihacegan"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sadatıkiram"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/cc22"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Sadatıkiram"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/zikirmatik"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/zikir"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Zikirmatik"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/esma"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/photo84"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Esmaülhüsna"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/Hadiscarkı"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="15dp"
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:minHeight="100dp"
+                            android:background="@drawable/home_gradient_maths"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:maxHeight="90dp"
+                                android:src="@drawable/hadis5"
+                                style="@style/homeCardImage"/>
+
+                            <TextView
+                                android:text="@string/Binhadiscarkı"
+                                style="@style/viewParent.headerText.HomeCardTitle" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

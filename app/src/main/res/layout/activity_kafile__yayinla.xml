@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/road"
+    tools:context=".Chat.RegisterActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/referanskafile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="referansno" />
+
+    <LinearLayout
+        android:background="@color/black_semi_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/kafile4" />
+
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Nereden"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/trasparentbutton"
+                            android:gravity="center"
+                            android:hint="Nereden?"
+                            android:padding="8dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#f1f1f1"
+                            android:textCursorDrawable="@color/accent"
+                            app:backgroundTint="@color/dark_orange" />
+
+                        <EditText
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Nereye"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:background="@drawable/trasparentbutton"
+                            android:gravity="center"
+                            android:hint="Nereye?"
+                            android:padding="8dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#f1f1f1"
+                            android:textCursorDrawable="@color/red"
+                            app:backgroundTint="@color/cold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Tarih"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/trasparentbutton"
+                            android:gravity="center"
+                            android:hint="Tarih"
+                            android:padding="8dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#f1f1f1"
+                            android:textCursorDrawable="@color/accent"
+                            app:backgroundTint="@color/dark_orange" />
+
+                        <EditText
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Saat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:background="@drawable/trasparentbutton"
+                            android:gravity="center"
+                            android:hint="Saat"
+                            android:padding="8dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#f1f1f1"
+                            android:textCursorDrawable="@color/red"
+                            app:backgroundTint="@color/cold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Baybayan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/trasparentbutton"
+                            android:gravity="center"
+                            android:hint="Bay/Bayan"
+                            android:padding="8dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#f1f1f1"
+                            android:textCursorDrawable="@color/accent"
+                            app:backgroundTint="@color/dark_orange" />
+
+                        <EditText
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Ücret"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:background="@drawable/trasparentbutton"
+                            android:gravity="center"
+                            android:hint="Ücret"
+                            android:padding="8dp"
+                            android:textColor="@android:color/white"
+                            android:textColorHint="#f1f1f1"
+                            android:textCursorDrawable="@color/red"
+                            app:backgroundTint="@color/cold" />
+                    </LinearLayout>
+
+
+                    <EditText
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/Numara"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/trasparentbutton"
+                        android:gravity="center"
+                        android:hint="İletişim Bigisi"
+                        android:padding="8dp"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="#f1f1f1"
+                        android:textCursorDrawable="@color/accent"
+                        app:backgroundTint="@color/accent" />
+
+
+
+                    <EditText
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/Notlar"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/trasparentbutton"
+                        android:gravity="center"
+                        android:hint="Not varsa ekleyiniz"
+                        android:padding="8dp"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="#f1f1f1"
+                        android:textCursorDrawable="@color/accent"
+                        app:backgroundTint="@color/red_logout" />
+
+                    <Button
+                        android:id="@+id/buttonRegister"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/trasparentbutton"
+                        android:text="Yayınla"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="1dp"
+                        android:background="@color/yellow"/>
+
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

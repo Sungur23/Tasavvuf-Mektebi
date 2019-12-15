@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/gray"
+    tools:context=".Ayarlar.Ayarlar">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/trasparentbutton"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_weight="1"
+                android:text="Açılış Sesi"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <net.colindodd.toggleimagebutton.ToggleImageButton
+                    xmlns:tib="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/sest"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    tib:tib_drawable_on="@drawable/ac"
+                    tib:tib_drawable_off="@drawable/kapa" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/trasparentbutton"
+
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                
+
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dil Ekranını Göster" />
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <net.colindodd.toggleimagebutton.ToggleImageButton
+                    xmlns:tib="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/dilt"
+                    android:layout_width="75dp"
+                    android:layout_height="55dp"
+                    tib:tib_drawable_on="@drawable/on"
+                    tib:tib_drawable_off="@drawable/off" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/trasparentbutton"
+
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                
+
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bir Hadis Ekranını Göster" />
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <net.colindodd.toggleimagebutton.ToggleImageButton
+                    xmlns:tib="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/hadist"
+                    android:layout_width="75dp"
+                    android:layout_height="55dp"
+                    tib:tib_drawable_on="@drawable/on"
+                    tib:tib_drawable_off="@drawable/off" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/trasparentbutton"
+
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:textStyle="bold"
+                
+
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bir İsm-i Şerif Ekranını Göster" />
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <net.colindodd.toggleimagebutton.ToggleImageButton
+                    xmlns:tib="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/esmat"
+                    android:layout_width="75dp"
+                    android:layout_height="55dp"
+                    tib:tib_drawable_on="@drawable/on"
+                    tib:tib_drawable_off="@drawable/off" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:background="@drawable/trasparentbutton"
+
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                
+
+                android:text="Bir Kıssa Ekranını Göster" />
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <net.colindodd.toggleimagebutton.ToggleImageButton
+                    xmlns:tib="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/kıssat"
+                    android:layout_width="75dp"
+                    android:layout_height="55dp"
+                    tib:tib_drawable_on="@drawable/on"
+                    tib:tib_drawable_off="@drawable/off" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/trasparentbutton"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                
+                android:text="Yazı Büyüklüğü" />
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/transparanmavi"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:layout_weight="5"
+                        android:id="@+id/boyutazalt"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/basmaefekt7" />
+
+                    <TextView
+                        android:layout_weight="5"
+                        android:textStyle="bold"
+                        android:id="@+id/yazıboyutu"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="21"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="5"
+                        android:id="@+id/boyutarttır"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/basmaefekt6" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

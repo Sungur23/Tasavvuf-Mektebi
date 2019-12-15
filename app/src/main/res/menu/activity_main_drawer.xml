@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Bize Buradan Ulaşabilirsiniz">
+        <menu>
+            <item
+                android:id="@+id/hakkımda"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Hakkımızda" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/puanver"
+            android:icon="@drawable/photo13"
+            android:title="Puan verin" />
+        <item
+            android:id="@+id/uygulamayıpaylaş"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Uygulamayı Paylaş" />
+        <item
+            android:id="@+id/reklam"
+            android:icon="@drawable/ic_action_close"
+            android:title="Reklamı Kaldır" />
+
+        <item
+            android:id="@+id/ayar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ayarlar" />
+    </group>
+
+    <item android:title="⭐⭐⭐">
+        <menu>
+
+            <item
+                android:id="@+id/nav_dark_mode"
+                android:icon="@android:drawable/ic_menu_day"
+                android:title="Tema Değiştir" />
+        </menu>
+    </item>
+
+</menu>

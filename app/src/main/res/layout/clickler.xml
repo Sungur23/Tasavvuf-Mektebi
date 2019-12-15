@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="bottom" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ÖnceL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/öncem"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="2"
+                android:background="@drawable/selector_sol" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/buttonshape5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sıra"
+                android:textAlignment="center"
+                android:textColor="@color/Beyaz"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/SayfaNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textColor="@color/Beyaz"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SonrakiL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/sonram"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="2"
+                android:background="@drawable/selector_sag" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

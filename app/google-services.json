@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273218880326",
+    "firebase_url": "https://tasavvuf-mektebi-d4ad1.firebaseio.com",
+    "project_id": "tasavvuf-mektebi-d4ad1",
+    "storage_bucket": "tasavvuf-mektebi-d4ad1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273218880326:android:d9e3f73cf5c0dbf5",
+        "android_client_info": {
+          "package_name": "soft.bigeran.dervis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273218880326-i75e3mffg65mjcfo6rk9kepobg6hp0as.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "soft.bigeran.dervis",
+            "certificate_hash": "5687bb7fcd008284445102f25e7a25110d7a47f7"
+          }
+        },
+        {
+          "client_id": "273218880326-t1ejqfk2peqksggi1std3u1rsuj14l1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-M3QAlE044zi-fId16KVVAVH7Ox9K2vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273218880326-t1ejqfk2peqksggi1std3u1rsuj14l1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

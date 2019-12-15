@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationMenu"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="⭐" />
+
+    <item
+        android:id="@+id/navigationMyCourses"
+        android:icon="@drawable/bus5"
+        android:title="@string/Kafileler" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/navigationHome"
+        android:icon="@drawable/ic_home"
+        android:title="Menü" />
+
+    <item
+
+        android:id="@+id/navigationSearch"
+        android:icon="@drawable/photo139"
+        android:title="Namaz Vakitleri" />
+
+    <item
+        android:id="@+id/navigationMyProfile"
+        android:icon="@drawable/media"
+        android:title="Media" />
+
+</menu>

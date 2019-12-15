@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/navmenu"
+    tools:context=".EsmaülHüsna.EsmaulHusna">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/esmagörüntü"
+                    android:background="@drawable/e1"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="30dip"
+                    app:riv_border_width="2dip"
+                    app:riv_border_color="#333333"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="false"
+                    android:layout_height="275dp"
+                    android:layout_width="match_parent" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/basmaefekt11"
+                    android:visibility="visible"
+                    app:maxImageSize="55dp"
+                    app:backgroundTint="@color/colorWhite3"
+                    app:rippleColor="@color/blue"
+                    app:useCompatPadding="true" />
+
+
+                <TextView
+                    android:textIsSelectable="true"
+                    android:id="@+id/esmayazı"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="100dp"
+                    android:text="Esma"
+                    android:textColor="@color/navmenutext"
+                    android:textSize="21sp" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </RelativeLayout>
+
+    <include
+        layout="@layout/clickler" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
